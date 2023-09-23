@@ -1,0 +1,26 @@
+; Load Address
+db 0x01, 0x08
+
+; Pointer to next line of BASIC (after this one)
+db 0x08, 0x08
+
+; BASIC Line 1
+db 0x01, 0x00
+
+; BASIC PRINT Token
+db 0x99
+
+; Argument
+db "4", 0x00
+
+; Pointer to next line of BASIC
+db 0x13, 0x08
+
+; BASIC Line 2
+db 0x02, 0x00
+
+; BASIC SAVE Token
+db 0x94
+
+; Argument
+db 0x22, "4", 0x22, 0x2c, "8", 0x00
