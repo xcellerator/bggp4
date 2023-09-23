@@ -2,6 +2,8 @@
 
 To test (on a RISC-V machine), just run `make`.
 
+Total size: 142 bytes.
+
 ```sh
 $ make
 rm -f 4

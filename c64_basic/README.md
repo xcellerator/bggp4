@@ -4,6 +4,8 @@ To test, run `make && make run`.
 
 Once VICE loads, type `run` and hit enter. Once you get a `READY` prompt, you can close VICE and confirm the hashes with `./d64.py disk.d64`.
 
+Total size: 20 bytes.
+
 ```
 +----------------------------------------------------------------------------------------------------------+
 |                                            Files on Disk " "                                             |
